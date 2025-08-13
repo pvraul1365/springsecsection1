@@ -17,6 +17,6 @@ public class WelcomeController {
 
     @GetMapping("/welcome")
     public String sayWelcome() {
-        return "Welcome to Spring Application with out security";
+        return "Welcome to Spring Application with security";
     }
 }
